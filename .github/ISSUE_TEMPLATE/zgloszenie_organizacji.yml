@@ -1,0 +1,53 @@
+name: Zgłoszenie organizacji
+description: Formularz pozwala na wygodne zgłoszenie nowej organizacji
+title: "[Zgłoszenie]: "
+labels: ["zgłoszenie", "organizacja", "nowe"]
+assignees:
+  - ivellios
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Dziękujemy za Twoje zainteresowanie pojawieniem się Twojej organizacji w Wyślij.co. Wypełnij ten formularz, żeby pomóc nam w dodaniu Twojej organizacji.
+  - type: input
+    id: nazwa
+    attributes:
+      label: Nazwa organizacji
+      description: Podaj nazwę swojej organizacji.
+    validations:
+      required: true
+  - type: input
+    id: krs
+    attributes:
+      label: Numer KRS
+  - type: textarea
+    id: adres
+    attributes:
+      label: Adres do wysyłek
+      description: Podaj adres, na który powinny być wysyłane produkty dla Twojej organizacji.
+  - type: input
+    id: email
+    attributes:
+      label: Email kontaktowy
+      description: Podaj adres, na który możemy sie z Tobą skontaktować w celu weryfikacji Twojego zgłoszenia.
+      placeholder: np. 111 222 333
+  - type: input
+    id: telefon
+    attributes:
+      label: Telefon kontaktowy
+      description: Podaj oficjalny numer telefonu, którego można użyć do kontaktu z Twoją organizacją. Posłuży on nam do weryfikacji Twojego zgłoszenia.
+      placeholder: np. 111 222 333
+  - type: input
+    id: telefon_kurier
+    attributes:
+      label: Telefon kontaktowy dla kuriera
+      description: Podaj numer telefonu, którego można użyć do kontaktu  w sprawie przesyłki
+      placeholder: np. 111 222 333
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Wyrażenie zgody
+      description: Posiadam prawo do reprezentowania organizacji w celu dodania jej w serwisie wyślij.co, a przekazane przeze mnie dane są zgodne z prawdą i mogą być w każdej chwili zweryfikowane.
+      options:
+        - label: Potwierdzam
+          required: true
