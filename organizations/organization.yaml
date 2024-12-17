@@ -1,0 +1,17 @@
+nazwa: Test 2
+
+# wyslij.co/testowej - adres, pod którym będzie dostępna strona
+adres: testowej2
+
+strona: https://domain.org
+krs: 0000645982
+
+dostawa:
+  ulica: ul. Testowa 2
+  kod: 00-000
+  miasto: Warszawa
+  telefon: 48 000-000-000
+
+produkty:
+  - nazwa: Testowy produkt
+    link: http://example.com
