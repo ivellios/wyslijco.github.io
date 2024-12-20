@@ -1,5 +1,5 @@
 ---
-nazwa: Testowa 3
+nazwa: Testowa
 
 # wyslij.co/testowej - adres, pod którym będzie dostępna strona
 adres: diozowi
@@ -13,8 +13,8 @@ dostawa:
   miasto: Warszawa
   telefon: 123123123
   email: adres@domain.org
-  kod_paczkomatu: 
-  dodatkowe_informacje: 
+  kod_paczkomatu:
+  dodatkowe_informacje:
 
 produkty:
   - nazwa: Testowy produkt
