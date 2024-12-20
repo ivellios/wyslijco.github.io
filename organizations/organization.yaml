@@ -1,17 +1,17 @@
 ---
-nazwa: 
+nazwa: Testowa 222
 
 # wyslij.co/testowej - adres, pod którym będzie dostępna strona
-adres: 
+adres: diozowi
 
-strona: 
+strona: https://org.org
 krs: 0000645982
 
 dostawa:
-  ulica: 
-  kod: 
-  miasto: 
-  telefon: 
+  ulica: Testowa 1
+  kod: 01-001
+  miasto: Warszawa
+  telefon: 123123123
   email: adres@domain.org
   kod_paczkomatu: 
   dodatkowe_informacje: 
