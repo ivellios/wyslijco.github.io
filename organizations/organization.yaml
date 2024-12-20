@@ -1,0 +1,21 @@
+---
+nazwa: 
+
+# wyslij.co/testowej - adres, pod którym będzie dostępna strona
+adres: 
+
+strona: 
+krs: 0000645982
+
+dostawa:
+  ulica: 
+  kod: 
+  miasto: 
+  telefon: 
+  email: adres@domain.org
+  kod_paczkomatu: 
+  dodatkowe_informacje: 
+
+produkty:
+  - nazwa: Testowy produkt
+    link: http://example.com
